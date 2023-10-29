@@ -6,6 +6,10 @@
 
 This repository contains an executable MATLAB function for Indoor Line-of-Sight (LOS) and Non-Line-of-Sight (NLOS) classification. The function is ready to work and can be used to classify signals based on LOS/NLOS conditions.
 
+This function will return a boolean
+- 1: Line-of-Sight (LOS)
+- 0: Non Line-of-Sight (NLOS)
+
 ## Usage
 
 ### Syntax
