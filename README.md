@@ -31,13 +31,13 @@ This function requires an N*M complex signal waveform, where:
 - N is the number of samples.
 - M is the number of antennas on the ULA.
 It can be applied to various modulation methods, including:
-- QPSK
-- 4-QAM
-- 8-QAM
-- 16-QAM
-- 32-QAM
-- 64-QAM
-- Basically any 2-dimensional modulation scheme
+  - QPSK
+  - 4-QAM
+  - 8-QAM
+  - 16-QAM
+  - 32-QAM
+  - 64-QAM
+- Any 2-dimensional modulation scheme should be acceptable for this algorithm.
 
 ### License
 This code is provided under the terms of the **No Commercial Use** license. You are allowed to use it for academic purposes but not for commercial applications.
