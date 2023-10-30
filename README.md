@@ -30,7 +30,7 @@ This function requires an N*M complex signal waveform, where:
 
 - N is the number of samples.
 - M is the number of antennas on the ULA.
-It can be applied to various modulation methods, including:
+- It can be applied to various modulation methods, including:
   - QPSK
   - 4-QAM
   - 8-QAM
