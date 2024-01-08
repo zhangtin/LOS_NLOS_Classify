@@ -10,8 +10,10 @@ This function will return a boolean
 - 1: Line-of-Sight (LOS)
 - 0: Non Line-of-Sight (NLOS)
 
-## Usage
+## Note
+This is ready to use version of the Classification algorithm. However, this fuction is included a beamforming process that can be vectorized instead. Therefore, this version has an degraded real-time performance than its original version.
 
+If you need a full speed version, please send me a message.
 ### Syntax
 
 ```matlab
