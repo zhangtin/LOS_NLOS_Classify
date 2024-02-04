@@ -24,7 +24,6 @@ sig = loadmat("D:/Research_Files/LOS_NLOS/Datas/QPSK_new/LOS/1.mat")['data']  # 
 I = sig @ ucor_matrix
 
 # 检查是否为LOS
-# 假设LOS_Classify也是对应的Python版本
 Result = LC.LOS_Classify(I, Scan_interval)
 
 # 显示结果
